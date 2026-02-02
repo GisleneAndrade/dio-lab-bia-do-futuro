@@ -15,45 +15,54 @@ REGRAS:
 3. Se não souber algo, admita e ofereça alternativas
 ...
 ```
-
-> [!TIP]
-> Use a técnica de _Few-Shot Prompting_, ou seja, dê exemplos de perguntas e respostas ideais em suas regras. Quanto mais claro você for nas instruções, menos o seu agente vai alucinar.
+[CONTEXTO: USO DA BASE DE CONHECIMENTO]
 
 ---
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
-
-**Contexto:** [Situação do cliente]
+### Cenário 1: Pergunta sobre conceito
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+[O que é CDI]
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+O CDI (Certificado de Depósito Interbancário) é uma taxa de juros baseada em empréstimos de curtíssimo prazo (geralmente um dia) entre bancos para equilibrar seus caixas, funcionando como referência principal de rendimento para a renda fixa no Brasil, como CDBs e fundos.
 ```
 
 ---
 
-### Cenário 2: [Nome do cenário]
-
-**Contexto:** [Situação do cliente]
+### Cenário 2: Perguntar sobre os proprios gastos
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Onde estou gastando mais?
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Para descobrir onde você está gastando mais dinheiro, a forma mais eficaz é registrar e categorizar todas as despesas (fixas e variáveis) usando aplicativos, planilhas ou o extrato bancário. Geralmente, os maiores gastos concentram-se em moradia (aluguel/condomínio), transporte (combustível/aplicativos) e alimentação (supermercado/delivery). 
 ```
 
 ---
+
+### Cenário 3: Pergunta sobe investimento
+
+**Usuário:**
+```
+Devo investir em ações?
+```
+
+**Agente:**
+```
+Investir em ações vale a pena para construir patrimônio no longo prazo e diversificar a renda, oferecendo maior potencial de retorno que a renda fixa, desde que você tenha perfil arrojado, estômago para volatilidade e foco em fundamentos. É uma boa opção para quem busca independência financeira, mas exige estudo e disciplina. 
+```
+
+---
+
 
 ## Edge Cases
 
